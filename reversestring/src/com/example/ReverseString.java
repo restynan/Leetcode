@@ -4,7 +4,7 @@ public class ReverseString {
 
     public String reverseWithStringBuilder(String st)
     {
-        return    new StringBuilder(st).reverse().toString();
+        return    new StringBuffer(st).reverse().toString();
 
     }
 
